@@ -1,0 +1,983 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root 
+{
+    --font-family: "Golos Text", sans-serif;
+    --second-family: "Merriweather", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container
+{
+    min-height: 100%;
+    background: url(img/group-12@2x.png) no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+}
+
+header .p 
+{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: rgba(89, 86, 83, 1);
+}
+
+.span 
+{
+    letter-spacing: 0.01em;
+}
+
+.b1 
+{
+    top: 0;
+    line-height: 108%;
+    text-transform: uppercase;
+}
+
+.logo 
+{
+    width: 246px;
+    height: 36px;
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 26px;
+}
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+    margin-left: -39rem;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    margin-left: -42rem;
+    margin-bottom: 24px;
+}
+
+.content .tagline{
+    width: 542px;
+    margin-top: 1.6rem;
+}
+
+
+.tagline .tag-text1 
+{
+    width: 542px;
+    text-align: left;
+    display: inline-block;
+    font-size: 60px;
+}
+
+.tagline  .tag-text1 h1,
+  .tag-text2 h1,
+  .tag-text3 h1
+{
+    font-size: 3.7rem; 
+    font-weight: 400;
+    color: rgba(49, 49, 49, 1);
+    position: relative;
+    line-height: 110%;
+    text-transform: uppercase;
+    font-family: var(--second-family);
+}
+
+  .tag-text2, .tag-text3 
+{
+    text-align: center;
+}
+
+
+.tag-text3 
+{
+    width: 542px;
+    display: inline-block;
+}
+
+.tagline 
+{
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-text
+{
+    margin-top: -12px;
+    width: 542px;
+    position: relative;
+    display: inline-block;
+}
+
+.small-text h3
+{
+    font-size: 16px;
+    line-height: 130%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+    color: #313131;
+}
+
+.buttons-section{
+    width: 542px;
+    height: 72px;
+}
+
+.button-support
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 15px;
+    width: 263px;
+    height: 72px;
+    background: #1f1f1f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    margin-right: 16px;
+    transition: .7s;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-support:hover
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 15px;
+    width: 263px;
+    height: 72px;
+    background: rgba(251, 206, 81, 1);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 16px;
+    transition: .3s;
+}
+
+.button-about
+{
+    border: 2px solid #1f1f1f;
+    border-radius: 66px;
+    padding: 15px;
+    width: 263px;
+    height: 72px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    margin-left: 17rem;
+    margin-top: -4.5rem;
+}
+
+.button-about:hover
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 15px;
+    width: 263px;
+    height: 72px;
+    background: #1f1f1f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    margin-right: 16px;
+    transition: .3s;
+}
+
+
+ marquee
+{
+    padding: 18px 12px;
+    background: #f54932;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+main
+{
+    width: 100%;
+}
+
+main .support-tournament
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-top: 5rem;
+}
+
+.red
+{
+    color: red;
+}
+
+main .support-tournament h1
+{
+    font-size: 2.25rem;
+    font-family: var(--second-family);
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+main .support-tournament img
+{
+    width: 579px;
+    height: 250px;
+    margin-left: 4.1rem;
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 11rem;
+    height: 527px;
+    margin-top: 2rem;
+}
+
+.session-table .table 
+{
+    grid-template-columns: 2fr;
+    
+}
+
+table
+{
+    width: 600px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 3px solid rgba(255, 255, 255, 0); /* Прячем рамку вокруг таблицы */
+}
+
+
+
+.session-table td
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 120%;
+    color: #313131;
+    padding: .8em 0em .8em; /* Поля вокруг содержимого таблицы */
+    border: 2px solid #d0d0d0; /* Параметры рамки */
+
+}
+
+.session-table td .bold, .lin
+{
+    padding: 1em .6em 1em;
+}
+
+.line
+{
+    text-decoration: line-through;
+	color: #f54932;
+}
+
+.line span
+{
+    color: #313131;
+}
+
+.default
+{
+    opacity: 0.7;
+}
+
+span .bold
+{
+    opacity: 1;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 120%;
+    color: #313131;
+}
+
+.box .session img
+{
+    width: 474px;
+    height: 527px;
+    margin-right: 2.75rem;
+}
+
+.session-table
+{
+    margin-top: 2rem;
+}
+
+.session-text{
+    width: 900PX;
+}
+
+.session-text h1
+{
+    text-transform: uppercase;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.session-text .red
+{
+    font-weight: 700;
+    color: #f54932;
+}
+
+.connect-text p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #3057a2;
+    margin-top: 2.4rem;
+}
+
+
+.stages-container
+{
+    display: flex;
+    justify-content: center;
+    margin-left: -35rem;
+    margin-top: 15rem;
+    margin-bottom: 54px;
+}
+
+.stages-container h1
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.stages-container .h4
+{
+    text-transform: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #3057a2;
+    top: 72px;
+    left: 301px;
+    line-height: 120%;
+    display: inline-block;
+    width: 280px;
+}
+
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    margin-left: -4rem;
+}
+
+.first-cards
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-item
+{
+    display: flex;
+    justify-content: space-between;
+    background: url(/img/bg.png) no-repeat;
+    width: 394px;
+    height: 112px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-item h4
+{
+    padding: 20px 20px 0px 0px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #313131;
+}
+
+
+
+.first-cards table
+{
+    grid-template-columns: 3fr;
+}
+
+.second-cards table
+{
+    grid-template-columns: 1fr;
+}
+
+
+.card-item img
+{
+    width: 20px;
+    height: 20px;
+    margin: 20px 20px 0 20px;
+}
+
+.card-itemBig
+{
+    background: url(./img/big.png) no-repeat;
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-itemBig h4
+{
+    padding: 20px 20px 80px 0px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #313131;
+}
+
+.card-itemBig img
+{
+    width: 20px;
+    height: 20px;
+    margin: 20px 20px 0 20px;
+
+}
+
+.second-cards{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-item1{
+    display: flex;
+    justify-content: space-between;
+    background: url(/img/wideshort.png) no-repeat;
+    background-size: 394px;
+    width: 394px;
+    height: 136px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -3.8rem;
+
+}
+
+.card-item1 h4
+{
+    padding: 20px 20px 0px 0px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #313131;
+}
+
+.card-item1 img
+{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+.card-itemWide
+{
+    background: url(./img/bg.png);
+    background-size: 803px;
+    width: 779px;
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-itemWide img
+{
+    width: 20px;
+    height: 20px;
+    margin: 20px 20px;
+}
+
+
+
+.card-itemWide .plane
+{   
+    z-index: 1;
+    width: 376.64px;
+    height: 190px;
+    margin-top: -80px;
+    margin-right: -45px;
+    overflow: visible;
+}
+
+.card-itemWide h4
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #313131;
+    padding: 20px 20px 0px 0px;
+    overflow: visible;
+    margin-right: -64px;
+}
+
+main .participants
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38.3rem;
+    margin-top: 200px;
+}
+
+.participants h1
+{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.arrows
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24rem;
+}
+
+.arrows button {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.counter
+{
+    margin: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #313131;
+}
+
+.content .slider {
+    width: 1270px;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    margin-left: 41rem;
+}
+
+.slides {
+    display: flex;
+    
+}
+
+.slide {
+    flex: 1 0 auto;
+    margin-right: 2rem;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    transition: transform 0.5s ease;
+    background: url(./img/man.png);
+    height: 400px;
+    width: 394px;
+}
+
+.moreBtn
+{
+    padding: 12px 12px;
+    border: 1.5px solid rgba(48, 87, 162, 1);
+    border-radius: 32px;
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    text-decoration: none;
+    text-align: center;
+    margin-left: 7.3rem;    
+}
+
+.moreBtn:hover
+{
+    background: rgba(48, 87, 162, 1);
+    color: white;
+}
+
+.slide h2
+{
+    color: #1f1f1f;
+    text-align: center;
+    margin-left: -1.7rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #313131;
+    margin-top: -2rem;
+}
+
+.slide h4
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #313131;
+    opacity: 0.6;
+    text-align: center;
+    margin-left: -1.7rem;
+    margin-bottom: 20px;
+}
+
+
+.prev {
+    left: 0;
+    background: #313131;
+    border-radius: 365px;
+    padding: 13px 19px;
+    rotate: 180deg;
+    height: 44px;
+    width: 44px;
+    transition: .7s;
+}
+
+.prev:hover
+{
+    background: #fbce51;
+    transition: .3s;
+}
+
+.next {
+    right: 0;
+    background: #313131;
+    border-radius: 365px;
+    padding: 13px 19px;
+    height: 44px;
+    width: 44px;
+    transition: .7s;
+}
+
+.next:hover
+{
+    background: #fbce51;
+    transition: .3s;
+}
+
+
+.footer
+{
+    width: 100%;
+    background-color: rgba(233, 222, 212, 1);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer p 
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #313131;
+    margin-left: -6rem;
+}
+
+
+/* Медиа-запрос для разрешения 375px и ниже */
+@media screen and (max-width: 375px) {
+    body{
+        overflow-y: hidden;
+        
+    }
+    .container {
+        max-width: 100%;
+        background: url(./img/375.png);
+        background-size: 100%;
+    }
+
+    .logo a{
+        margin-left: -11rem;
+    }
+
+    .content .tagline{
+            width: 335px;
+            margin-top: 3rem;
+            margin-left: 43.5rem;
+        }
+
+
+    .tagline .tag-text1 
+{
+    width: 335px;
+    text-align: left;
+    display: inline-block;
+    font-size: 60px;
+
+}
+    .tagline .tag-text1 h1,
+    .tag-text2 h1,
+    .tag-text3 h1{
+        font-size: 36px; 
+        font-weight: 400;
+        color: rgba(49, 49, 49, 1);
+        position: relative;
+        line-height: 110%;
+        text-transform: uppercase;
+        font-family: var(--second-family);
+}
+
+.small-text
+{
+    margin-top: -12px;
+    width: 335px;
+    position: relative;
+    display: inline-block;
+    margin-left: 43.5rem;
+
+}  
+
+.small-text h3
+{
+    font-size: 16px;
+    line-height: 130%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: left;
+    color: #313131;
+}
+
+.buttons-section{
+    width: 335px;
+    height: 108px;
+}
+
+.button-support
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 10px;
+    width: 335px;
+    height: 47px;
+    background: #1f1f1f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    margin-right: 16px;
+    transition: .7s;
+    display: flex;
+    justify-content: center;
+    margin-left: 21rem;
+    margin-top: -13px;
+}
+
+.button-support:focus
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 15px;
+    width: 335px;
+    height: 72px;
+    background: rgba(251, 206, 81, 1);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 16px;
+    transition: .3s;
+}
+
+.button-about
+{
+    border: 2px solid #ffffff;
+    border-radius: 66px;
+    padding: 10px;
+    width: 335px;
+    height: 47px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    margin-left: 21rem;
+    margin-top: 13px;
+    background: #ffffff;
+}
+
+.button-about:focus
+{
+    text-decoration: none;
+    border-radius: 66px;
+    padding: 15px;
+    width: 335px;
+    height: 47px;
+    background: #1f1f1f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    margin-right: 16px;
+    transition: .3s;
+}
+
+marquee
+{
+    padding: 18px 12px;
+    background: #f54932;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 19.2rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+main
+{
+    width: 100%;
+
+}
+
+/* main .support-tournament
+{
+    width: 375px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+
+
+main .support-tournament h1, span
+{
+    font-size: 26px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #313131;
+    margin-left: 6rem;
+
+}
+
+main .support-tournament .ah 
+{
+    font-size: 26px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #313131;
+    margin-top: 230px;
+}
+
+.red{
+    font-size: 25px;
+}
+
+main .support-tournament img
+{
+    width: 450px;
+    height: 200px;
+    margin-left: 7.1rem;
+    margin-top: -23rem;
+} */
+
+}
